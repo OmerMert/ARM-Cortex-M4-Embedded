@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v20.2.6                     
 ******************************************************************************
->> Linked Tue Aug 30 23:19:09 2022
+>> Linked Wed Aug 31 18:45:18 2022
 
 OUTPUT FILE NAME:   <Blink.out>
 ENTRY POINT SYMBOL: "_c_int00_noinit_noargs"  address: 000002c5
