@@ -9,27 +9,27 @@ CMD_SRCS += \
 ../tm4c123gh6pm.cmd 
 
 C_SRCS += \
-../hello.c \
+../main.c \
 ../tm4c123gh6pm_startup_ccs.c 
 
 C_DEPS += \
-./hello.d \
+./main.d \
 ./tm4c123gh6pm_startup_ccs.d 
 
 OBJS += \
-./hello.obj \
+./main.obj \
 ./tm4c123gh6pm_startup_ccs.obj 
 
 OBJS__QUOTED += \
-"hello.obj" \
+"main.obj" \
 "tm4c123gh6pm_startup_ccs.obj" 
 
 C_DEPS__QUOTED += \
-"hello.d" \
+"main.d" \
 "tm4c123gh6pm_startup_ccs.d" 
 
 C_SRCS__QUOTED += \
-"../hello.c" \
+"../main.c" \
 "../tm4c123gh6pm_startup_ccs.c" 
 
 
