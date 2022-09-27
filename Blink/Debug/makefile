@@ -158,6 +158,7 @@ clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
 	-$(RM) "delay.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" 
 	-$(RM) "delay.d" "main.d" "tm4c123gh6pm_startup_ccs.d" 
+	-$(RM) "main.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

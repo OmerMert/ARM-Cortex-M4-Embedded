@@ -8,6 +8,9 @@ SHELL = cmd.exe
 CMD_SRCS += \
 ../tm4c123gh6pm.cmd 
 
+ASM_SRCS += \
+../main.asm 
+
 C_SRCS += \
 ../delay.c \
 ../main.c \
@@ -23,6 +26,9 @@ OBJS += \
 ./main.obj \
 ./tm4c123gh6pm_startup_ccs.obj 
 
+ASM_DEPS += \
+./main.d 
+
 OBJS__QUOTED += \
 "delay.obj" \
 "main.obj" \
@@ -33,9 +39,15 @@ C_DEPS__QUOTED += \
 "main.d" \
 "tm4c123gh6pm_startup_ccs.d" 
 
+ASM_DEPS__QUOTED += \
+"main.d" 
+
 C_SRCS__QUOTED += \
 "../delay.c" \
 "../main.c" \
 "../tm4c123gh6pm_startup_ccs.c" 
+
+ASM_SRCS__QUOTED += \
+"../main.asm" 
 
 
