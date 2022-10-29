@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <WorkspaceName>WorkSpace</WorkspaceName>
+
+  <project>
+    <PathAndName>.\Blink\Blink.uvprojx</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
+  </project>
+
+  <project>
+    <PathAndName>.\PushButton\PushButton.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\LCD\LCD.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\ADC\ADC.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\Interrupt\Interrupt.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\Timer\Timer.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\PWM\PWM.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\UART\UART.uvprojx</PathAndName>
+  </project>
+
+</ProjectWorkspace>
